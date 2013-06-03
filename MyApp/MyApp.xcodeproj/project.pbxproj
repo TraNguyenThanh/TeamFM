@@ -16,6 +16,8 @@
 		17A379E3175CC15400892130 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A379E2175CC15400892130 /* Default.png */; };
 		17A379E5175CC15400892130 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A379E4175CC15400892130 /* Default@2x.png */; };
 		17A379E7175CC15400892130 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A379E6175CC15400892130 /* Default-568h@2x.png */; };
+		17A379F0175CC27600892130 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A379EE175CC27600892130 /* MainViewController.m */; };
+		17A379F1175CC27600892130 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A379EF175CC27600892130 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		17A379E2175CC15400892130 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		17A379E4175CC15400892130 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		17A379E6175CC15400892130 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17A379ED175CC27600892130 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		17A379EE175CC27600892130 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		17A379EF175CC27600892130 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		17A379C4175CC15400892130 = {
 			isa = PBXGroup;
 			children = (
+				17A379ED175CC27600892130 /* MainViewController.h */,
+				17A379EE175CC27600892130 /* MainViewController.m */,
+				17A379EF175CC27600892130 /* MainViewController.xib */,
 				17A379D6175CC15400892130 /* MyApp */,
 				17A379CF175CC15400892130 /* Frameworks */,
 				17A379CE175CC15400892130 /* Products */,
@@ -154,6 +162,7 @@
 				17A379E3175CC15400892130 /* Default.png in Resources */,
 				17A379E5175CC15400892130 /* Default@2x.png in Resources */,
 				17A379E7175CC15400892130 /* Default-568h@2x.png in Resources */,
+				17A379F1175CC27600892130 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				17A379DD175CC15400892130 /* main.m in Sources */,
 				17A379E1175CC15400892130 /* AppDelegate.m in Sources */,
+				17A379F0175CC27600892130 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
